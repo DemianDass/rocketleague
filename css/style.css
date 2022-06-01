@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Logo{
+    width: 120px;
+    
+}
+
+
+.accordion-button{
+    color: #fff;
+    background-color: #0a1a2a;
+}
+
+.accordion-item{
+
+    color: #fff;
+    background-color: hsl(210, 55%, 17%);
+   
+}
+
+.card-body{
+    color: #fff;
+     background-color: #0a1a2a;
+}
+.col > img{
+    background-color: #0a1a2a;
+}
+
+.galeria-img {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 40px 20px;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    padding: 40px 0;
+}
+
+.titulo-galeria{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    color: #fff;
+    -webkit-text-stroke:1.5px black;
+    margin-top: 50px;
+}
+
+.titulo-galeria h2{
+    font-size: 50px;
+}
+
+.accordion-button img{
+    width: 35px;
+}
+
+.titulo-nosotros h1{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    -webkit-text-stroke:1.5px black;
+
+}
+
+.titulo-nosotros p{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    -webkit-text-stroke:1.5px black;
+
+}
+.coches-semanales{
+    background: hsla(240, 15%, 36%, 0.877);
+    display:flex;
+    justify-content:space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    -webkit-text-stroke:0.6px black;
+    font-size: x-large;
+    min-width: 250px;
+    
+}
+
+.coches-semanales h5{
+
+    font-size:xx-large;
+}
+.titulo-inicio{
+    
+    display: flex;
+    height: 439px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+body{
+    width: 100%;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    margin: 0%; 
+    background: url(/img/rocketfondo.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    flex-wrap: wrap;
+    min-width: 100px;
+    overflow: auto;
+       
+}
+
+nav{
+    width: 100%;
+    padding: 0;
+
+
+}
+
+.col-md-8 p{
+    color: #fff;
+}
+
+
+.titulo-inicio h2{
+
+   font-size: 50px;
+   font-weight: 900;
+   color: #fff;
+   -webkit-text-stroke:1.5px black;
+
+}
+
+.titulo-inicio p{
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    -webkit-text-stroke:1.5px black;
+
+}
+
+.titulo-semanales h2{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    -webkit-text-stroke:1.5px black;
+
+}
+
+.titulo-semanales p{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    -webkit-text-stroke:1.5px black;
+
+}
+.wrap{
+   
+    width:90%;
+    max-width: 1000px;
+    /* margin: auto; */
+}
+.widget{
+    height: 200px;
+    width: 40%;
+    margin: 2em;
+    /* margin: 32px; */
+}
+
+.widget p{
+    
+    display: inline-block;
+    line-height: 1em;
+}
+
+.fecha{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3125rem;
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    width: 400px;
+}
+
+.reloj{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 400px;
+    padding: 20px;
+    font-size: 4em;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+    margin: 0 auto;
+    
+}
+
+.reloj .caja-segundos{
+
+    display:inline-block ;
+}
+
+.reloj .segundos,
+.reloj .ampm{
+    font-size: 2rem;
+    display: block;
+}
+
+#map {
+    height: 100%;
+  }
+
+
+  .Rangos-Competitivo h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.Rangos-Competitivo h2{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    -webkit-text-stroke:1.5px black;
+
+}
+
+.accordion-button{
+    color: #fff;
+    background-color: #0a1a2a;
+
+}
+
+.accordion-item{
+
+    color: #fff;
+    background-color: hsl(210, 55%, 17%);
+   
+}
+
+.container-contacto{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    width: 40%;
+    height: 80%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0,0,0,0.8) 0px 0px 50px;
+    border-radius: 10px;
+}
+
+input, textarea{
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 10px 0px;
+    width: 80%;
+    margin: 10px;
+    transition: all 300ms;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+
+}
+
+input:focus, textarea:focus{
+    border-bottom-color: #610061;
+}
+
+
+.titulo-nosotros h2{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    -webkit-text-stroke:1.5px black;
+
+}
+
+.titulo-nosotros p{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    -webkit-text-stroke:1.5px black;
+
+}
+.container {
+
+    justify-content:center;
+    align-items:center;
+}
+
+.card-1{
+    margin: 5px;
+    border-style: double;
+}
+
+.col-md-8{
+    margin-top: 40px;
+    
+}
+
+.col-md-4 > img{
+
+    align-items: center;
+    justify-content:center;
+    margin-top: 15px;
+    border-radius: 2px;
+}
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;   
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 60px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.container-texto{
+    display: flex;
+    justify-content: space-between;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+.col img{
+    display: flex;
+    width: 100%;
+    height: 750px;
+}
+
+.card {
+    width: 100%;
+}
+
+.container-open{
+    width: 100%;
+    
+    background-color: #0a1a2a;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Rangos-Competitivo img{
+
+    justify-content: center;
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+    align-content: center;
+
+
+}
+
