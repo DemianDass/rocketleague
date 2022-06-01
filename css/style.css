@@ -326,6 +326,10 @@ input:focus, textarea:focus{
 
 }
 
+.card{
+    margin-top: 50px;
+}
+
 .titulo-nosotros p{
     align-items: center;
     justify-content: center;
@@ -488,6 +492,7 @@ footer{
     width: 100%;
     height: auto;
     align-content: center;
+    margin-top: 100px;
 
 
 }
